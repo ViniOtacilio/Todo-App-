@@ -4,7 +4,9 @@
         <h1>To do App</h1>
     </div>
     <div class="home-call-to-start">
-        <h3> Click HERE to start your jorney </h3>
+        <h3> Click 
+            <router-link to="/app" > HERE </router-link>
+             to start your jorney </h3>
     </div>
   </div>
 </template>
